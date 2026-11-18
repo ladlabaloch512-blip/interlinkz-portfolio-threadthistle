@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Thread and Thistle</title>
+<meta name="description" content="Thread and Thistle, a small womens fashion boutique. Soft pieces in natural fabrics and gentle colours. Demo portfolio website.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="announce">Free delivery on orders over $75</div>
+<header class="site-header">
+  <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+    <svg width="22" height="16" viewBox="0 0 22 16" aria-hidden="true"><path d="M1 1h20M1 8h20M1 15h20" stroke="#4A4038" stroke-width="1.8"/></svg>
+  </button>
+  <nav class="nav nav-left" aria-label="Shop">
+    <a href="shop.html">Shop All</a>
+    <a href="collection.html?c=new-in">New In</a>
+    <a href="collection.html?c=dresses">Dresses</a>
+    <a href="lookbook.html">Lookbook</a>
+  </nav>
+  <a class="brand" href="index.html" aria-label="Thread and Thistle, home">
+    <img class="brand-mark" src="images/logo-mark.jpg" alt="Thread and Thistle thistle mark">
+    <span class="brand-name">THREAD <em>and</em> THISTLE</span>
+  </a>
+  <div class="header-right">
+    <nav class="nav nav-right" aria-label="Help and about">
+      <a href="about.html">About</a>
+      <a href="size-guide.html">Size Guide</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="cart-link" href="cart.html">Cart (<span data-cart-count>0</span>)</a>
+  </div>
+</header>
+<nav class="mobile-nav" aria-label="Mobile">
+  <a href="shop.html">Shop All</a>
+  <a href="collection.html?c=new-in">New In</a>
+  <a href="collection.html?c=dresses">Dresses</a>
+  <a href="collection.html?c=tops-knitwear">Tops and Knitwear</a>
+  <a href="collection.html?c=bottoms">Bottoms</a>
+  <a href="collection.html?c=accessories">Accessories</a>
+  <a href="lookbook.html">Lookbook</a>
+  <a href="about.html">About</a>
+  <a href="size-guide.html">Size Guide</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+  <a href="cart.html">Cart</a>
+</nav>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">The Autumn Collection</p>
+    <h1>Soft pieces you will live in.</h1>
+    <p class="sub">Small batch womens clothing in natural fabrics and gentle colours. Designed to be worn on repeat, not just once.</p>
+    <div class="hero-actions">
+      <a class="btn btn-rose" href="collection.html?c=new-in">Shop New In</a>
+      <a class="btn btn-outline" href="collection.html?c=dresses">Browse Dresses</a>
+    </div>
+  </section>
+  <div class="hero-photo"><img src="images/hero.jpg" alt="Model wearing a soft taupe knit cardigan" fetchpriority="high"></div>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>The Autumn Edit</h2>
+        <p>Warm knits, long coats and soft layers in rose, sage and taupe. Every piece in this edit mixes with at least three others in the collection, so a small wardrobe goes a long way.</p>
+      </div>
+      <div class="feature-block">
+        <img src="images/p-camel-wool-coat.jpg" alt="Camel Wool Coat worn by a model">
+        <div class="feature-text">
+          <p class="eyebrow">Featured piece</p>
+          <h3>Camel Wool Coat</h3>
+          <p class="price">$118</p>
+          <p>Long line winter coat, fully lined. The layer that finishes every autumn outfit, in a warm camel wool blend.</p>
+          <a class="btn btn-rose" href="product.html?id=6">View the Coat</a>
+        </div>
+      </div>
+      <div class="grid" id="home-newin"></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Loved and reordered</h2>
+        <p>These are the pieces our customers buy in a second colour. Honest fabrics, fair prices and fits that are true to the size guide.</p>
+      </div>
+      <div class="grid" id="home-best"></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" id="collections">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Find your piece</h2>
+        <p>Dresses for days that need a little more, knitwear for slow weekends, and accessories that finish any outfit. Start with a collection and use the filters to find your size.</p>
+      </div>
+      <div class="tiles">
+        <a class="tile" href="collection.html?c=new-in"><img src="images/tile-new-in.jpg" alt="New In pieces"><span>New In</span></a>
+        <a class="tile" href="collection.html?c=dresses"><img src="images/tile-dresses.jpg" alt="Dresses collection"><span>Dresses</span></a>
+        <a class="tile" href="collection.html?c=tops-knitwear"><img src="images/tile-knitwear.jpg" alt="Tops and knitwear collection"><span>Tops and Knitwear</span></a>
+        <a class="tile" href="collection.html?c=bottoms"><img src="images/tile-bottoms.jpg" alt="Bottoms collection"><span>Bottoms</span></a>
+        <a class="tile" href="collection.html?c=accessories"><img src="images/tile-accessories.jpg" alt="Accessories collection"><span>Accessories</span></a>
+        <a class="tile" href="shop.html"><img src="images/look-4.jpg" alt="Shop all pieces"><span>Shop All</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section promise">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Made to be kept</h2>
+      <p>We choose natural and long lasting fabrics wherever we can, and we write the true fabric content on every product page. If a piece is delicate, we say so. If it runs small, we say that too. No surprises when your parcel arrives.</p>
+    </div>
+    <div class="promise-grid">
+      <div class="promise-item">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 42c0-10 0-18 0-26M24 16C24 8 18 4 8 4c0 10 4 14 12 14M24 24c1-7 6-11 14-11 0 8-3 13-11 13"/></svg>
+        <h3>Natural fabrics</h3>
+        <p>Cotton, linen, wool blends and viscose, chosen for how they feel and how long they last.</p>
+      </div>
+      <div class="promise-item">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 30h36v10H6zM12 30v5M18 30v7M24 30v5M30 30v7M36 30v5"/></svg>
+        <h3>Honest fit notes</h3>
+        <p>Every product page carries the fabric, the fit and the care notes in plain words.</p>
+      </div>
+      <div class="promise-item">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 24c-6 0-9-4-9-8s3-8 9-8c8 0 12 16 20 16 6 0 9-4 9-8M34 24c6 0 9 4 9 8" transform="translate(0 4)"/></svg>
+        <h3>Made to be kept</h3>
+        <p>Pieces picked to mix with the rest of your wardrobe and stay there for years.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="section">
+    <div class="wrap story">
+      <img src="images/about.jpg" alt="Model in a natural linen shirt outdoors">
+      <div>
+        <h2>Our story</h2>
+        <p>Thread and Thistle began with a simple frustration: pretty clothes that fell apart after three washes. We set out to make a small boutique where every piece is chosen for fabric first and trend second.</p>
+        <a class="btn btn-outline" href="about.html">Read Our Story</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section newsletter">
+  <div class="wrap">
+    <h2>First look, every season</h2>
+    <p>Join the list for early access to new collections and private sale days. One email a week at most, and you can leave at any time.</p>
+    <form class="newsletter-form" novalidate>
+      <input type="email" name="email" placeholder="Your email address" aria-label="Email address" required>
+      <button class="btn" type="submit">Join the List</button>
+    </form>
+    <p class="msg" data-news-msg aria-live="polite"></p>
+  </div>
+</section>
+</main>
+<section class="lead-band">
+  <p>Like how this demo store looks and works?</p>
+  <div class="lead-band-actions">
+    <a class="btn btn-rose" href="https://interlinkz.com/contact">Want a website like this? Talk to Interlinkz</a>
+    <a class="lead-contact" href="https://interlinkz.com/contact">Contact Interlinkz</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <span class="footer-logo-card"><img src="images/logo-lockup.jpg" alt="Thread and Thistle logo"></span>
+      <p>Small batch womens clothing in natural fabrics and gentle colours. Designed to be worn on repeat, not just once.</p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <a href="shop.html">Shop All</a>
+      <a href="collection.html?c=new-in">New In</a>
+      <a href="collection.html?c=dresses">Dresses</a>
+      <a href="collection.html?c=tops-knitwear">Tops and Knitwear</a>
+      <a href="collection.html?c=bottoms">Bottoms</a>
+      <a href="collection.html?c=accessories">Accessories</a>
+      <a href="lookbook.html">Lookbook</a>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="size-guide.html">Size Guide</a>
+      <a href="shipping-returns.html">Shipping and Returns</a>
+      <a href="faq.html">FAQ</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart</a>
+    </div>
+    <div>
+      <h4>Visit the boutique</h4>
+      <p>8 Demo Street, Sample City</p>
+      <p>Phone: 0300 0000000</p>
+      <p>Email: hello@threadthistle.example.com</p>
+      <p>Monday to Saturday: 10 am to 8 pm</p>
+      <p>Sunday: 11 am to 6 pm</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>Thread and Thistle. This is a demo portfolio website. Products, prices and details are samples for design display.</p>
+    <p>Built by <a href="https://interlinkz.com">Interlinkz</a></p>
+  </div>
+</footer>
+<script src="js/store.js"></script>
+</body>
+</html>

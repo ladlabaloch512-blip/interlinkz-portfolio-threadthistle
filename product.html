@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product | Thread and Thistle</title>
+<meta name="description" content="Thread and Thistle, a small womens fashion boutique. Soft pieces in natural fabrics and gentle colours. Demo portfolio website.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="announce">Free delivery on orders over $75</div>
+<header class="site-header">
+  <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+    <svg width="22" height="16" viewBox="0 0 22 16" aria-hidden="true"><path d="M1 1h20M1 8h20M1 15h20" stroke="#4A4038" stroke-width="1.8"/></svg>
+  </button>
+  <nav class="nav nav-left" aria-label="Shop">
+    <a href="shop.html">Shop All</a>
+    <a href="collection.html?c=new-in">New In</a>
+    <a href="collection.html?c=dresses">Dresses</a>
+    <a href="lookbook.html">Lookbook</a>
+  </nav>
+  <a class="brand" href="index.html" aria-label="Thread and Thistle, home">
+    <img class="brand-mark" src="images/logo-mark.jpg" alt="Thread and Thistle thistle mark">
+    <span class="brand-name">THREAD <em>and</em> THISTLE</span>
+  </a>
+  <div class="header-right">
+    <nav class="nav nav-right" aria-label="Help and about">
+      <a href="about.html">About</a>
+      <a href="size-guide.html">Size Guide</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="cart-link" href="cart.html">Cart (<span data-cart-count>0</span>)</a>
+  </div>
+</header>
+<nav class="mobile-nav" aria-label="Mobile">
+  <a href="shop.html">Shop All</a>
+  <a href="collection.html?c=new-in">New In</a>
+  <a href="collection.html?c=dresses">Dresses</a>
+  <a href="collection.html?c=tops-knitwear">Tops and Knitwear</a>
+  <a href="collection.html?c=bottoms">Bottoms</a>
+  <a href="collection.html?c=accessories">Accessories</a>
+  <a href="lookbook.html">Lookbook</a>
+  <a href="about.html">About</a>
+  <a href="size-guide.html">Size Guide</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+  <a href="cart.html">Cart</a>
+</nav>
+
+<main id="product-root">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Home</a> / <a href="shop.html">Shop All</a> / <span id="crumb-name"></span></p>
+    <div class="product-layout">
+      <div>
+        <div class="gallery-main"><img id="gallery-main-img" src="" alt=""></div>
+        <div class="gallery-thumbs" id="gallery-thumbs"></div>
+      </div>
+      <div class="product-info" id="product-info">
+        <h1 id="product-name" style="font-size:2.2rem"></h1>
+        <p class="price" id="product-price"></p>
+        <p class="blurb" id="product-blurb"></p>
+        <p class="opt-label">Colour</p>
+        <div class="colour-row" id="product-colours"></div>
+        <p class="opt-label">Size &nbsp;<a href="size-guide.html" style="letter-spacing:0;text-transform:none;font-size:.85rem">Size guide</a></p>
+        <div class="size-row" id="product-sizes" role="group" aria-label="Choose a size"></div>
+        <div class="qty-row">
+          <div class="qty-ctrl">
+            <button type="button" id="qty-minus" aria-label="Decrease quantity">-</button>
+            <output id="qty-out">1</output>
+            <button type="button" id="qty-plus" aria-label="Increase quantity">+</button>
+          </div>
+          <button type="button" class="btn btn-rose" id="product-add" style="flex:1">Add to Cart</button>
+        </div>
+        <p class="msg" id="product-msg" aria-live="polite"></p>
+        <dl class="notes">
+          <div><dt>Fabric</dt><dd id="product-fabric"></dd></div>
+          <div><dt>Fit</dt><dd id="product-fit"></dd></div>
+          <div><dt>Care</dt><dd id="product-care"></dd></div>
+        </dl>
+        <p class="ship-note">Shipping: packed within 1 to 2 working days. Standard delivery takes 3 to 5 working days and costs $5, free on orders over $75. Returns within 14 days. See <a href="shipping-returns.html">Shipping and Returns</a>.</p>
+      </div>
+    </div>
+    <section style="padding-bottom:64px">
+      <div class="section-head"><h2>You may also like</h2></div>
+      <div class="grid" id="related-grid"></div>
+    </section>
+  </div>
+</main>
+<section class="lead-band">
+  <p>Like how this demo store looks and works?</p>
+  <div class="lead-band-actions">
+    <a class="btn btn-rose" href="https://interlinkz.com/contact">Want a website like this? Talk to Interlinkz</a>
+    <a class="lead-contact" href="https://interlinkz.com/contact">Contact Interlinkz</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <span class="footer-logo-card"><img src="images/logo-lockup.jpg" alt="Thread and Thistle logo"></span>
+      <p>Small batch womens clothing in natural fabrics and gentle colours. Designed to be worn on repeat, not just once.</p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <a href="shop.html">Shop All</a>
+      <a href="collection.html?c=new-in">New In</a>
+      <a href="collection.html?c=dresses">Dresses</a>
+      <a href="collection.html?c=tops-knitwear">Tops and Knitwear</a>
+      <a href="collection.html?c=bottoms">Bottoms</a>
+      <a href="collection.html?c=accessories">Accessories</a>
+      <a href="lookbook.html">Lookbook</a>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="size-guide.html">Size Guide</a>
+      <a href="shipping-returns.html">Shipping and Returns</a>
+      <a href="faq.html">FAQ</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart</a>
+    </div>
+    <div>
+      <h4>Visit the boutique</h4>
+      <p>8 Demo Street, Sample City</p>
+      <p>Phone: 0300 0000000</p>
+      <p>Email: hello@threadthistle.example.com</p>
+      <p>Monday to Saturday: 10 am to 8 pm</p>
+      <p>Sunday: 11 am to 6 pm</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>Thread and Thistle. This is a demo portfolio website. Products, prices and details are samples for design display.</p>
+    <p>Built by <a href="https://interlinkz.com">Interlinkz</a></p>
+  </div>
+</footer>
+<script src="js/store.js"></script>
+</body>
+</html>

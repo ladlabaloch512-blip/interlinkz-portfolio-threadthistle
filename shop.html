@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop All | Thread and Thistle</title>
+<meta name="description" content="Thread and Thistle, a small womens fashion boutique. Soft pieces in natural fabrics and gentle colours. Demo portfolio website.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="announce">Free delivery on orders over $75</div>
+<header class="site-header">
+  <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+    <svg width="22" height="16" viewBox="0 0 22 16" aria-hidden="true"><path d="M1 1h20M1 8h20M1 15h20" stroke="#4A4038" stroke-width="1.8"/></svg>
+  </button>
+  <nav class="nav nav-left" aria-label="Shop">
+    <a href="shop.html">Shop All</a>
+    <a href="collection.html?c=new-in">New In</a>
+    <a href="collection.html?c=dresses">Dresses</a>
+    <a href="lookbook.html">Lookbook</a>
+  </nav>
+  <a class="brand" href="index.html" aria-label="Thread and Thistle, home">
+    <img class="brand-mark" src="images/logo-mark.jpg" alt="Thread and Thistle thistle mark">
+    <span class="brand-name">THREAD <em>and</em> THISTLE</span>
+  </a>
+  <div class="header-right">
+    <nav class="nav nav-right" aria-label="Help and about">
+      <a href="about.html">About</a>
+      <a href="size-guide.html">Size Guide</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="cart-link" href="cart.html">Cart (<span data-cart-count>0</span>)</a>
+  </div>
+</header>
+<nav class="mobile-nav" aria-label="Mobile">
+  <a href="shop.html">Shop All</a>
+  <a href="collection.html?c=new-in">New In</a>
+  <a href="collection.html?c=dresses">Dresses</a>
+  <a href="collection.html?c=tops-knitwear">Tops and Knitwear</a>
+  <a href="collection.html?c=bottoms">Bottoms</a>
+  <a href="collection.html?c=accessories">Accessories</a>
+  <a href="lookbook.html">Lookbook</a>
+  <a href="about.html">About</a>
+  <a href="size-guide.html">Size Guide</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+  <a href="cart.html">Cart</a>
+</nav>
+
+<main>
+  <section class="page-banner">
+    <p class="eyebrow">The full rail</p>
+    <h1>Shop All</h1>
+    <p>Every piece in the boutique. Use the filters to find your category, your size and your colour, then sort the rail your way.</p>
+  </section>
+  <section class="section" style="padding-top:26px">
+    <div class="wrap">
+      <div class="toolbar">
+        <div class="pills" role="group" aria-label="Filter by category">
+          <button type="button" class="pill selected" data-cat-pill="All">All</button>
+          <button type="button" class="pill" data-cat-pill="Dresses">Dresses</button>
+          <button type="button" class="pill" data-cat-pill="Tops and Knitwear">Tops and Knitwear</button>
+          <button type="button" class="pill" data-cat-pill="Bottoms">Bottoms</button>
+          <button type="button" class="pill" data-cat-pill="Accessories">Accessories</button>
+        </div>
+        <div class="field">
+          <label for="filter-size">Size</label>
+          <select id="filter-size">
+            <option value="All">All sizes</option>
+            <option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option>
+            <option>One Size</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="filter-colour">Colour</label>
+          <select id="filter-colour"><option value="All">All colours</option></select>
+        </div>
+        <div class="field">
+          <label for="sort-select">Sort by</label>
+          <select id="sort-select">
+            <option value="featured">Featured</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="name">Name: A to Z</option>
+          </select>
+        </div>
+      </div>
+      <p class="results-count" id="shop-count"></p>
+      <div class="grid" id="shop-grid"></div>
+    </div>
+  </section>
+</main>
+<section class="lead-band">
+  <p>Like how this demo store looks and works?</p>
+  <div class="lead-band-actions">
+    <a class="btn btn-rose" href="https://interlinkz.com/contact">Want a website like this? Talk to Interlinkz</a>
+    <a class="lead-contact" href="https://interlinkz.com/contact">Contact Interlinkz</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <span class="footer-logo-card"><img src="images/logo-lockup.jpg" alt="Thread and Thistle logo"></span>
+      <p>Small batch womens clothing in natural fabrics and gentle colours. Designed to be worn on repeat, not just once.</p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <a href="shop.html">Shop All</a>
+      <a href="collection.html?c=new-in">New In</a>
+      <a href="collection.html?c=dresses">Dresses</a>
+      <a href="collection.html?c=tops-knitwear">Tops and Knitwear</a>
+      <a href="collection.html?c=bottoms">Bottoms</a>
+      <a href="collection.html?c=accessories">Accessories</a>
+      <a href="lookbook.html">Lookbook</a>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="size-guide.html">Size Guide</a>
+      <a href="shipping-returns.html">Shipping and Returns</a>
+      <a href="faq.html">FAQ</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart</a>
+    </div>
+    <div>
+      <h4>Visit the boutique</h4>
+      <p>8 Demo Street, Sample City</p>
+      <p>Phone: 0300 0000000</p>
+      <p>Email: hello@threadthistle.example.com</p>
+      <p>Monday to Saturday: 10 am to 8 pm</p>
+      <p>Sunday: 11 am to 6 pm</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>Thread and Thistle. This is a demo portfolio website. Products, prices and details are samples for design display.</p>
+    <p>Built by <a href="https://interlinkz.com">Interlinkz</a></p>
+  </div>
+</footer>
+<script src="js/store.js"></script>
+</body>
+</html>
